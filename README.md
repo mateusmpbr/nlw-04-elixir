@@ -35,6 +35,7 @@ Para iniciar o seu servidor Phoenix:
 
 - Instale as dependências com `mix deps.get`
 - Crie o banco de dados e rode as migrations rodando `mix ecto.setup`
+  - OBS: caso esteja usando Windows, verifique "IMPORTANTE-WINDOWS.txt", na raíz do repositório
 - Inicie o servidor Phoenix com `mix phx.server`
 
 Agora você pode acessar [`localhost:4000`](http://localhost:4000) do seu navegador.
