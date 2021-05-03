@@ -1,0 +1,10 @@
+Antes de executar "mix ecto.setup" é necessário executar:
+
+EM [VSCODE -> INTEGRATED TERMINAL]
+=> cmd /K "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" amd64
+
+OU
+
+EM [WINDOWS -> RUN/EXECUTAR]
+=> cmd /K "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" amd64
+=> cd <PATH/TO/PROJECT>
